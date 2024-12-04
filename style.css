@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+   overflow: hidden;
+   background-image:url("assert/Calculator\ background.jpg");
+   background-size: contain;
+}
+
+
+#top{
+    border-style:hidden;
+    padding: 10%;
+    margin-bottom: 10%;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: rgb(35,136,255);
+
+}
+.keypad{
+    display:flex;
+  
+}
+
+.button{
+    border-style: hidden;
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    margin: 2%;
+    margin-left: 6%;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 70%; 
+    background-color: #d8ddf0;
+    color:  #727a95;
+
+}
+.special-buttons{
+color: #f7faff;
+}
+#calculator{
+    border-style: none;
+    width: 20%;
+    padding: 3%; 
+    border-radius: 7%;
+    margin-top: 2%;
+    margin-left: 36%;
+    background-color: white;
+}
